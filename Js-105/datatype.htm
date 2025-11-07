@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data types in js</title>
+</head>
+<body>
+    <h1>Data type Demo</h1>
+    <pre id="Demo"></pre>
+    <script> 
+        const a1 = 12;
+        const a2 = "siva";
+        const a3 = true;
+        let a4;
+        const a5 = null;
+        const a6 = 2345678n;
+        const a7 = Symbol("id");
+
+        document.getElementById("Demo").innerHTML = 
+            `number = ${a1}
+string = ${a2}
+boolean = ${a3}
+undefined = ${a4}
+null = ${a5}
+bigint = ${a6}
+symbol = ${a7.toString()}`;
+    </script>
+</body>
+</html>

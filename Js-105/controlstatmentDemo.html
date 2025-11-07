@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control statement</title>
+</head>
+<body>
+    <h1>Control statements demonstriation in js</h1>
+    <p id="demo"></p>
+    <script>
+        let a;
+        let b;
+        let n1=parseInt(prompt("Enter a value:"));
+        let n2=parseInt(prompt("Enter b value:"));
+        document.getElementById("demo").innerHTML="first element:"+n1+"<br/>";
+            document.getElementById("demo").innerHTML+="Second element:"+n2+"<br/>";
+            if(n1<n2){
+                document.getElementById("demo").innerHTML+="Second element is big";
+            }else{
+                document.getElementById("demo").innerHTML="first element is big"; 
+            }
+    </script>
+</body>
+</html>
